@@ -2,7 +2,7 @@
 <?php echo $judul ?>
 <table width="316" border="1">
   <tr>
-    <td width="171" height="26">Kode Jurusan </td>
+    <td width="171" height="26">Kode Jurusan Matkul </td>
     <td width="129">
       <label>
       <input type="text" name="kode_jurusan">
@@ -10,7 +10,7 @@
     </td>
   </tr>
   <tr>
-    <td>Nama Jurusan </td>
+    <td>Nama Jurusan Matkul </td>
     <td>
       <label>
       <input type="text" name="nama_jurusan">
