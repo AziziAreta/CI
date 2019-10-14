@@ -1,0 +1,33 @@
+Pertemuan 1
+Semester 3
+
+Aplikasi/Program/Software
+Terbagi Menjadi di bagi 3
+1. Web
+2. Dekstop
+3. Web
+
+Contoh
+Whatsap
+1. Web ada
+2. Dekstop Ada
+3. Web Ada
+
+
+dalam membuat website berbasis web ada 3 cara
+1. Native
+2. Framework
+3. CMS
+
+untuk native bebas tanpa punya aturan tersendiri berbeda dengan framework
+
+navite = - OOP
+	 misal : - Input data (html)
+		 - insta.php (db) -> baju dalam
+framework = M (Model)	: Databse
+	    V (View)	: tampilan (HTML/CSS/JS)
+	    C (Controler: Logic / Alur
+
+Repository itu sama kaya folder namun repository ini tidak boleh ada spasi
+
+

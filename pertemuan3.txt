@@ -1,0 +1,57 @@
+Senin
+23/09/2019
+
+Table :
+- Calon Mahasiswa
+	FIELD:  - No_Pendaftaran		int(11) Primary Key
+		- Nama				varchar(50)
+		- tgl_Lahir			date
+		- Jk				enum ("P","L") "type data enum adalah opsional"
+		- Alamat			varchar(100)
+		- No_telp			varchar (15)
+		- Agama				int(1)
+		- email				varchar(100)
+- Jurusan
+	Field : - Kode_Jurusan			int(3)
+		- Nama_Jurusan			varchar(100)
+		- Inisial			varchar (5)
+- Admin
+	Field :	- Id_Admin			int(5) AI
+		- username			varchar(20)
+		- password			varchar(40)
+		- Nama				varchar(50)
+		- No_Telp			varchar(50)
+- Dosen
+	Field : - Nik				varchar(15) Primary key
+		- Kode_Dosen			varchar(3)
+		- nama_dosen			varchar(50)
+		- jk				enum ("P","L")
+		- email				varchar(50)
+		- Status			enum ("Aktif","Pasif")
+- Agama
+	Field : - id_agama			int(2)
+		- Nama_agama			varchar(20)
+
+
+kalo kita menggunakan auto increment mulai nya dari angka 1 2 3 4
+Kalo menggunakan Primary key
+
+
+didatabses itu ada relasi (Join)
+ketika di databases ada beberapa database dan memiliki field yang sama berarti databases tersebut saling berelasi
+
+one to one  = 1 -> 1 (satu siswa memiliki 1 agama)
+one to many = 1 -> 1 matkul (satu siswa memilih beberapa mata kuliah) ini masuk nya ke one to many
+		   1 matkul
+		   1 matkul
+many to many = lebih banyak lagi
+
+ketika kita memiliki table mahasiswa lalu di dalem table mahasiswa ada fiel agama di samping itu ada master filed agama di table agama -> ketika table mahasiswa ada 10 record/10mahasiswa 
+yang masing masing memiliki agama berbeda di hapus itu tidak akan masalah di table master agama tapi kalo table agama nya yang 
+di hapus maka table mahasiswa akan bermasalah karna ada relasi table yaitu field agama, lain hal nya ketika kita menggunakan cascade dan recject 
+walaupun table master di hapus tidak akan maasalah
+
+
+aturan di codeigniter itu ada konsep MVC (CONTROLER, MODEL, VIEW)
+
+masing masing framework punya aturan tersendiri tapi konsep nya sama MVC

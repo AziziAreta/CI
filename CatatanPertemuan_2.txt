@@ -1,0 +1,23 @@
+di Codeigniter sebenernya gasemua koding dipake
+
+garis besar nya ada disini 
+" public function index()
+	{
+		$this->load->view('welcome_message');
+	}
+"
+
+Jadi nanti ada banyak model model function
+
+cara ngebaca nya adalah Function Index() sama seperti php 
+jadi brower akan langsung baca pertama kali index()
+
+Tugas Controler adalah mengarahkan
+
+
+jadi di codeignier itu pertama kali bukabrowser akan baca funtion Index() untuk pertama kali nya buka browser
+
+Funtion dan nama file boleh beda
+Kalo untuk penamaan nama funtion usahakan Huruf Kecil semua
+
+ketika make form_open dan form_close tidak perlu menambahkan tag <form action=""> </form>

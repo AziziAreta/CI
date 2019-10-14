@@ -1,0 +1,36 @@
+#include <iostream>
+#include <string>
+// untuk menggunakan tipedata string
+
+//kita sebut sebagai header,
+//ini untuk import library yang dibutuhkan dalam project iostream
+//iostream
+
+//int main adalah function
+
+// garis miring 2 kali adalah commands,
+// tujuannya meng ignore baris tersebut atau baris tersebut
+// tidak akan di eksekusi oleh program
+
+using namespace std; // ini fungsinya tidak mengetik std:: lagi
+
+
+int main()
+{
+    //pengenalanTipeData();
+    //contohInputInt();
+    //contohInputChar();
+    //contohInputString();
+
+
+    //Floating Point adalah tipe data numerik yang memungkinkan untuk
+    //menyimpan nilai dalam memori bersifat bilangan pecahan atau real,
+    //maupun eksponensial.
+
+    float angka1 = 7;
+    float angka2 = 2;
+    float total = angka1 / angka2;
+    cout << total;
+
+    return 0;
+}
